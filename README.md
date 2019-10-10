@@ -1,6 +1,6 @@
 # scala-dtw
 
-[![Build Status](https://travis-ci.com/madsync/scala-dtw.svg?branch=master)](https://travis-ci.com/madsync/scala-dtw.svg?branch=master)
+[![Build Status](https://travis-ci.org/madsync/scala-dtw.svg?branch=master)](https://travis-ci.org/madsync/scala-dtw.svg?branch=master)
 [![Coverage Status](https://coveralls.io/repos/github/madsync/scala-dtw/badge.svg)](https://coveralls.io/github/madsync/scala-dtw)
 
 
