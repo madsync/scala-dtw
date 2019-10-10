@@ -1,3 +1,6 @@
+import org.scoverage.coveralls.Imports.CoverallsKeys._
+
+
 name := "scala-dtw"
 
 version := "0.1"
@@ -10,3 +13,5 @@ libraryDependencies ++= Seq(
 )
 
 libraryDependencies += "net.ruippeixotog" %% "scala-scraper" % "2.1.0"
+
+coverallsToken := Some("o4nLaD4B9eFFVEndv0Jdm1n4ke16n7iGL")
