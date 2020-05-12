@@ -19,13 +19,13 @@ The nature of the distance being considered between any two elements is governed
 For the special case of a standard Euclidean distance, it is possible to improve computational complexity to an O(N)
 computation through a method called FastDTW. FastDTW is also supported in this library.
 
-###Fast DTW
+### Fast DTW
 
 FastDTW is a method of improving DTW calculation speed by computing a coarse-grained envelope to place bounds on the possible 
 paths an optimal seqence matchup might take. It can be shown that the complexity of this method is O(N) on the grounds that
 the higher level computation restricts considered cells to a neighborhood around the diagonal, traversal of which is O(N).
 
-FastDTW is not perfectly accurate in the event a window iis introduced to limit its ability to traverse the cost matrix.
+FastDTW is not perfectly accurate in the event a window is introduced to limit its ability to traverse the cost matrix.
 
 FastDTW may only be applied to sub-metrics that respect a renormalization symmetry, behaving qualitatively at coarsened
 scales as they do at finer ones. Currently the only sub-metric supported that obeys this symmetry is
